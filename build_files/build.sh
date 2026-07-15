@@ -10,8 +10,7 @@ dnf5 --no-plugins install -y \
     niri \
     dms \
     brave-origin \
-    kde-connect \
-    xwayland
+    kde-connect
 
 # -----------------------------------------------------------
 # CORREZIONE XWAYLANDVIDEOBRIDGE (SOLO SU KDE)
