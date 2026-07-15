@@ -6,7 +6,7 @@ set -ouex pipefail
 cp -avf "/ctx/system_files"/. /
 
 ### Install packages
-dnf5 --disable-plugins install -y \
+dnf5 --no-plugins install -y \
     niri \
     dms \
     brave-origin \
